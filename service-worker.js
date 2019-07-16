@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/jaroszpaw/app-rr.git/precache-manifest.89780be279fa5b281108d9ffbe8bd2a6.js"
+  "/app-rr/precache-manifest.de1bd69a85ef9d6ebc0bb7605025bdab.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/jaroszpaw/app-rr.git/index.html", {
+workbox.routing.registerNavigationRoute("/app-rr/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
